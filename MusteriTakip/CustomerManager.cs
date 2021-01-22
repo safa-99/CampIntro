@@ -6,7 +6,7 @@ namespace MusteriTakip
 {
     class CustomerManager
     { 
-        public void Add(Customer customer)
+        public void Add(Customer customer)  
         {  
             Console.WriteLine(customer.name + " Eklendi");
         }
